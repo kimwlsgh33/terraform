@@ -1,10 +1,10 @@
 provider "aws" {
 
   region  = "ap-northeast-2"
-  profile = "facam"
+  profile = "fcmp02"
 
-  access_key = ""
-  secret_key = ""
+  access_key = "AKIAZAVJQA4DLOUVR5W3"
+  secret_key = "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"
 
   default_tags {
     tags = local.common_tags
